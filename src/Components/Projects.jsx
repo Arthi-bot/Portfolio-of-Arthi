@@ -2,7 +2,7 @@ import assets from "../assets/assets"
 
 const Projects =()=>{
     return(
-        <div id="projects" className="max-w-full overflow-hidden py-15 md:py-22">
+        <div id="projects" className="max-w-full overflow-hidden py-20 md:py-28">
 
             <div>
                 <div className="flex flex-col items-center">
@@ -24,7 +24,9 @@ const Projects =()=>{
                     <div className="lg:w-1/2 flex flex-col items-start justify-start gap-3">
                         <h3 className="text-lg lg:text-2xl font-bold text-(--primary-text-color) tracking-wide">Agency.ai</h3>
                         <p className="text-sm lg:text-base text-(--secondary-text-color) tracking-wide">
-                            Agency.ai is a responsive landing page crafted to present digital services with clarity and impact. The project emphasizes reusable components, structured layouts, theme customization, and conversion-focused design principles to deliver a seamless user experience.
+                            Agency.ai is a responsive landing page crafted to present digital services with clarity and impact. 
+                            The project emphasizes reusable components, structured layouts, theme customization and conversion-focused design 
+                            principles to deliver a seamless user experience.
                         </p>
                         <a href="https://agency-ai-pink.vercel.app/" target="_blank" rel="noopener noreferrer" className="mb-2 bg-(--primary-color) text-(--primary-text-color) px-8 py-3 rounded-lg hover:bg-(--secondary-color) uppercase tracking-wide font-medium text-lg transition-colors duration-200 ease-in-out">Visit project</a>
                     </div>

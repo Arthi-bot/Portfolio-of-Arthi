@@ -12,7 +12,7 @@ const Home = ()=>{
                 </div>
                 <div className="wrap-break-word px-6 tracking-wider my-5 text-base lg:text-xl lg:w-3/5 text-center text-(--secondary-text-color)">
                     <p>
-                        A skilled web developer, crafting and managing websites and web applications to ensure the success of the 
+                        A skilled Frontend developer, crafting and managing websites and web applications to ensure the success of the 
                         entire product with finesse.
                     </p>
                 </div>

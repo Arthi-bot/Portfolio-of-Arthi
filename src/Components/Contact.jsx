@@ -35,7 +35,7 @@ const Contact =()=>{
     };
 
     return(
-        <div id="contact" className="max-w-full overflow-hidden py-15 md:py-22">
+        <div id="contact" className="max-w-full overflow-hidden py-20 md:py-28">
 
             <div>
                 <div className="flex flex-col items-center">

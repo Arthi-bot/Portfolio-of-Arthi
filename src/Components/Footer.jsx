@@ -9,7 +9,9 @@ const Footer =()=>{
                         <h1 className="text-xl lg:text-2xl tracking-wider uppercase font-bold text-(--primary-text-color)">Arthi</h1>
                     </div>
                     <div>
-                        <p className="text-md text-(--secondary-text-color) mt-3 tracking-wide wrap-break-word">As a frontend-oriented web developer, I specialize in crafting the user-facing aspects of websites and web applications, contributing to the overall success of the product.</p>
+                        <p className="text-md text-(--secondary-text-color) mt-3 tracking-wide wrap-break-word">As a frontend developer, 
+                            I specialize in crafting the user-facing aspects of websites and web applications, contributing to the overall success 
+                            of the product.</p>
                     </div>
                 </div>
 
@@ -31,7 +33,7 @@ const Footer =()=>{
             <div className="bg-gray-700 h-[0.5px] w-full mt-14"></div>
             
             <div>
-                <p className="text-(--secondary-text-color) text-xs font-normal my-6 lg:my-10 text-center tracking-wider">©Copyright 2025. Made by Arthi</p>
+                <p className="text-(--secondary-text-color) text-xs font-normal my-6 lg:my-10 text-center tracking-wider">© Copyright 2026. Made by Arthi</p>
             </div>
         </footer>
     )

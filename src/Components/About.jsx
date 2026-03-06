@@ -1,6 +1,6 @@
 const About = ()=>{
     return(
-        <div id="about" className="max-w-full overflow-hidden py-15 md:py-22">
+        <div id="about" className="max-w-full overflow-hidden py-20 md:py-28">
 
             <div>
                 <div className="flex flex-col items-center">
@@ -33,7 +33,7 @@ const About = ()=>{
                         <p className="text-(--secondary-text-color) my-3 text-base">
                            I build real-world frontend projects using modern UI patterns and 
                            animations with production-level thinking. I'm looking to contribute 
-                           and grow as a frontend engineer. 
+                           and grow as a Fullstack Developer. 
                         </p>
                     </div>
                 </div>
