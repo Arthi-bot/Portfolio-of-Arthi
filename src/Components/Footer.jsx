@@ -33,7 +33,7 @@ const Footer =()=>{
             <div className="bg-gray-700 h-[0.5px] w-full mt-14"></div>
             
             <div>
-                <p className="text-(--secondary-text-color) text-xs font-normal my-6 lg:my-10 text-center tracking-wider">© Copyright 2026. Made by Arthi</p>
+                <p className="text-(--secondary-text-color) text-xs font-normal my-6 lg:my-10 text-center tracking-wider">Copyright 2026 © Portfolio - All rights Reserved.</p>
             </div>
         </footer>
     )
