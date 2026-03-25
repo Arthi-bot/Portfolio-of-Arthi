@@ -43,7 +43,7 @@ const About = ()=>{
                     <div className="text-(--secondary-text-color) flex flex-wrap gap-5 ">
                         <span className="px-5 py-3 bg-(--skills-bg-color) rounded-lg font-medium">JavaScript</span>
                         <span className="px-5 py-3 bg-(--skills-bg-color) rounded-lg font-medium">React.js</span>
-                        <span className="px-5 py-3 bg-(--skills-bg-color) rounded-lg font-medium">React Router</span>
+                        <span className="px-5 py-3 bg-(--skills-bg-color) rounded-lg font-medium">React Router DOM</span>
                         <span className="px-5 py-3 bg-(--skills-bg-color) rounded-lg font-medium">HTML</span>
                         <span className="px-5 py-3 bg-(--skills-bg-color) rounded-lg font-medium">CSS</span>
                         <span className="px-5 py-3 bg-(--skills-bg-color) rounded-lg font-medium">Tailwind css</span>
