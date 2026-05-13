@@ -10,17 +10,37 @@ const Projects =()=>{
             </div>
 
             <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8 px-4 my-16">
-                <div className="grid grid-rows-1 px-6 py-2 rounded-md bg-(--project-bg-color) gap-10 ">
+                <div className="px-6 py-2 rounded-md bg-(--project-bg-color) h-150 ">
                     <div className="flex flex-row justify-center">
                         <img loading="lazy" src={assets.Project_1} alt="" className="object-cover py-3 w-100 h-70 lg:w-130"/>
                     </div>
-                    <div className="flex flex-col gap-3">
-                        <h3 className="text-lg lg:text-2xl font-bold text-(--primary-text-color) tracking-wide">Forever</h3>
+                    <div className="flex flex-col gap-3 py-3">
+                        <h3 className="text-lg lg:text-2xl font-bold text-(--primary-text-color) tracking-wide">Bug Solver</h3>
                         <p className="text-sm lg:text-base text-(--secondary-text-color) tracking-wide">
-                            Built a e-commerce web application that enables users to browse products, add items to the cart and 
-                            manage purchases efficiently. Utilized React.js for the frontend, implemented state management for 
-                            dynamic user interactions and used Tailwind CSS for responsive user-friendly UI design.
+                            Built an AI-powered debugging web application to simplify code error detection and resolution, helping 
+                            developers save time with bug explanations and suggested fixes. Developed using React, Tailwind CSS, Monaco 
+                            Editor, Vercel serverless functions, and Google Gemini API for intelligent error analysis. 
+                            <div className="h-[24px]"></div>
                         </p>
+                    </div>
+                    <div className="flex flex-row gap-4 mt-2">
+                        <a href="https://github.com/Arthi-bot/Bug_solver" target="_blank" rel="noopener noreferrer" className="mb-2 bg-(--primary-color) text-(--primary-text-color) px-6 py-2 rounded-lg hover:bg-(--secondary-color) tracking-wide font-medium text-md transition-colors duration-200 ease-in-out">GitHub Repo</a>
+                        <a href="https://bug-solver.vercel.app/" target="_blank" rel="noopener noreferrer" className="mb-2 bg-(--primary-color) text-(--primary-text-color) px-6 py-2 rounded-lg hover:bg-(--secondary-color) tracking-wide font-medium text-md transition-colors duration-200 ease-in-out">Live Preview</a>
+                    </div>
+                </div>
+
+                <div className="px-6 py-2 rounded-md bg-(--project-bg-color) h-150">
+                    <div className="flex flex-row justify-center">
+                        <img loading="lazy" src={assets.Project_2} alt="" className="object-cover py-3 w-100 h-70 lg:w-130"/>
+                    </div>
+                    <div className="flex flex-col gap-3 py-3">
+                        <h3 className="text-lg lg:text-2xl font-bold text-(--primary-text-color) tracking-wide">Forever (E-commerce)</h3>
+                        <p className="text-sm lg:text-base text-(--secondary-text-color) tracking-wide">
+                            Built a responsive e-commerce web application to enhance online shopping experience. It helps users easily 
+                            browse products, filter and sort items by gender and price, manage carts, and complete purchases through an 
+                            intuitive interface. Developed using React, Tailwind CSS and efficient state management for better performance 
+                            and user interaction.
+                        </p> 
                     </div>
                     <div className="flex flex-row gap-4 mt-2">
                         <a href="https://github.com/Arthi-bot/Forever-E-commerce-Website" target="_blank" rel="noopener noreferrer" className="mb-2 bg-(--primary-color) text-(--primary-text-color) px-6 py-2 rounded-lg hover:bg-(--secondary-color) tracking-wide font-medium text-md transition-colors duration-200 ease-in-out">GitHub Repo</a>
@@ -28,34 +48,17 @@ const Projects =()=>{
                     </div>
                 </div>
 
-                <div className="grid grid-rows-1 px-6 py-2 rounded-md bg-(--project-bg-color) gap-10 ">
-                    <div className="flex flex-row justify-center">
-                        <img loading="lazy" src={assets.Project_2} alt="" className="object-cover py-3 w-100 h-70 lg:w-130"/>
-                    </div>
-                    <div className="flex flex-col gap-3">
-                        <h3 className="text-lg lg:text-2xl font-bold text-(--primary-text-color) tracking-wide">Agency.ai</h3>
-                        <p className="text-sm lg:text-base text-(--secondary-text-color) tracking-wide">
-                            Built a responsive landing page that presents company services and added dark/ light theme to 
-                            improve user accessibility. implemented web3forms for users to connect or request services in simple 
-                            way. Utilized React.js for the UI and Tailwind CSS for user-friendly design.
-                        </p> 
-                    </div>
-                    <div className="flex flex-row gap-4 mt-2">
-                        <a href="https://github.com/Arthi-bot/AGENCY-AI" target="_blank" rel="noopener noreferrer" className="mb-2 bg-(--primary-color) text-(--primary-text-color) px-6 py-2 rounded-lg hover:bg-(--secondary-color) tracking-wide font-medium text-md transition-colors duration-200 ease-in-out">GitHub Repo</a>
-                        <a href="https://agency-ai-pink.vercel.app/" target="_blank" rel="noopener noreferrer" className="mb-2 bg-(--primary-color) text-(--primary-text-color) px-6 py-2 rounded-lg hover:bg-(--secondary-color) tracking-wide font-medium text-md transition-colors duration-200 ease-in-out">Live Preview</a>
-                    </div>
-                </div>
-
-                <div className="grid grid-rows-1 px-6 py-2 rounded-md bg-(--project-bg-color) gap-10 ">
+                <div className="px-6 py-2 rounded-md bg-(--project-bg-color) h-150">
                     <div className="flex flex-row justify-center">
                         <img loading="lazy" src={assets.Project_3} alt="" className="object-cover py-3 w-100 h-70 lg:w-130"/>
                     </div>
-                    <div className="flex flex-col gap-3">
+                    <div className="flex flex-col gap-3 py-3">
                         <h3 className="text-lg lg:text-2xl font-bold text-(--primary-text-color) tracking-wide">Expense Tracker</h3>
                         <p className="text-sm lg:text-base text-(--secondary-text-color) tracking-wide">
-                            Built a expense tracker web application that helps users to monitor income and expenses and gain 
-                            better insights into their spending. Implemented dynamic UI updates and real-time balance 
-                            calculations using Vanilla JavaScript, ensuring a responsive and user-friendly experience.
+                            Built a web application to simplify personal finance management by helping users track income, expenses, and 
+                            overall balance in one place. It enables users to easily add transactions and monitor spending history through a 
+                            clean, responsive interface. Developed using HTML, CSS and Javascript.
+                            <div className="h-[24px]"></div>
                         </p>
                     </div>
                     <div className="flex flex-row gap-4 mt-2">
