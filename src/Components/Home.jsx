@@ -17,7 +17,7 @@ const Home = ()=>{
                 </div>
 
                 <div className="my-5">
-                    <a href="./public/Arthi_Murugan.pdf" target="_blank" rel="noopener noreferrer">
+                    <a href="./public/Arthi_M_FD.pdf" target="_blank" rel="noopener noreferrer">
                         <button className="bg-(--primary-color) tracking-wide text-(--primary-text-color) rounded-md  
                         uppercase ease-linear duration-200 hover:-translate-y-1 hover:bg-(--secondary-color) 
                         font-semibold py-4 px-8 text-xl hover:tracking-widest cursor-pointer">Resume</button>
