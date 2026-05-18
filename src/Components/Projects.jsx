@@ -17,9 +17,10 @@ const Projects =()=>{
                     <div className="flex flex-col gap-3 py-3">
                         <h3 className="text-lg lg:text-2xl font-bold text-(--primary-text-color) tracking-wide">Bug Solver</h3>
                         <p className="text-sm lg:text-base text-(--secondary-text-color) tracking-wide">
-                            Built an AI-powered debugging web application to simplify code error detection and resolution, helping 
-                            developers save time with bug explanations and suggested fixes. Developed using React, Tailwind CSS, Monaco 
-                            Editor, Vercel serverless functions, and Google Gemini API for intelligent error analysis. 
+                            Built an AI-powered debugging web application that helps developers quickly identify, fix, and understand 
+                            code errors with simple explanations and allows users to run the code to see the results.
+                            Developed using React, Tailwind CSS, Monaco Editor, Judge0, Google Gemini API, and Vercel 
+                            Serverless Functions.
                             <div className="h-[24px]"></div>
                         </p>
                     </div>
@@ -37,7 +38,7 @@ const Projects =()=>{
                         <h3 className="text-lg lg:text-2xl font-bold text-(--primary-text-color) tracking-wide">Forever (E-commerce)</h3>
                         <p className="text-sm lg:text-base text-(--secondary-text-color) tracking-wide">
                             Built a responsive e-commerce web application to enhance online shopping experience. It helps users easily 
-                            browse products, filter and sort items by gender and price, manage carts, and complete purchases through an 
+                            browse 50+ products, filter and sort items by gender and price, manage carts, and complete purchases through an 
                             intuitive interface. Developed using React, Tailwind CSS and efficient state management for better performance 
                             and user interaction.
                         </p> 
