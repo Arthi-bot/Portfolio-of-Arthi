@@ -39,7 +39,8 @@ export default async function handler(req, res) {
       console.error("Web3Forms error:", errorText);
       return res.status(400).json({
         success: false,
-        message: "Failed to send message",
+        message: "Web3Forms API error",
+        details: errorText,
       });
     }
 
@@ -53,7 +54,13 @@ export default async function handler(req, res) {
       });
     }
 
-    return res.status(400).json(data);
+    // Web3Forms returned success: false
+    console.error("Web3Forms rejected submission:", data);
+    return res.status(400).json({
+      success: false,
+      message: "Failed to send message",
+      details: data,
+    });
 
   } catch (error) {
     console.error("Server error:", error.message);
