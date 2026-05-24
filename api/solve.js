@@ -5,7 +5,7 @@ export default async function handler(req, res) {
       message: "Method not allowed",
     });
   }
-
+  console.log(process.env.WEB3FORM_ACCESS_KEY)
   try {
     const { name, email, message } = req.body;
 
