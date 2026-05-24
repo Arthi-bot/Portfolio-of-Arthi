@@ -37,15 +37,16 @@ const Contact =()=>{
     const data = await res.json();
 
     if (data.success) {
-      setStatus("Message sent!");
+      setStatus("success");
+      setTimeout(() => {
         setFormData({
           name: "",
           email: "",
           message: "",
         });
-
+      }, 500);
     } else {
-      setStatus("Failed to send.");
+      setStatus("error");
     }
     setLoading(false);
   };

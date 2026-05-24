@@ -4,7 +4,7 @@ const About = ()=>{
 
             <div className="flex flex-col items-center">
                 <h1 className="text-(--primary-text-color) text-4xl uppercase font-bold tracking-widest">About Me</h1>
-                <div class=" w-12 h-[5px] my-4 rounded-full bg-blue-600"></div>
+                <div className=" w-12 h-[5px] my-4 rounded-full bg-blue-600"></div>
             </div>
 
             <div className="px-6 flex flex-col justify-start lg:flex-row lg:mx-10 my-16 gap-10">

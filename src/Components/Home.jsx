@@ -4,8 +4,8 @@ const Home = ()=>{
     return(
         <div id="#" className="max-w-full h-screen relative overflow-hidden z-0">
 
-            <div class="absolute shadow-[0_0_3000px_65px_rgba(0,0,240,1)] top-[40%] left-0"></div>
-            <div class="absolute shadow-[0_0_3000px_65px_rgba(100,20,100,1)] top-[70%] right-0"></div>
+            <div className="absolute shadow-[0_0_3000px_65px_rgba(0,0,240,1)] top-[40%] left-0"></div>
+            <div className="absolute shadow-[0_0_3000px_65px_rgba(100,20,100,1)] top-[70%] right-0"></div>
 
             <div className="flex flex-col py-2 px-2 items-center justify-center h-full">
 
