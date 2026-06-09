@@ -6,11 +6,12 @@ const Footer =()=>{
             <div className="flex flex-col-reverse lg:flex-row gap-5">
                 <div className="lg:w-1/2">
                     <div>
-                        <h1 className="text-xl lg:text-2xl tracking-wider uppercase font-bold text-(--primary-text-color)">Arthi Murugan</h1>
+                        <h1 className="text-xl lg:text-2xl tracking-wider capitalize font-bold text-(--primary-text-color)">Arthi Murugan</h1>
                     </div>
                     <div>
-                        <p className="text-md text-(--secondary-text-color) mt-3 tracking-wide wrap-break-word">As a frontend developer, 
-                            I specialize in crafting the user-facing aspects of websites and web applications.</p>
+                        <p className="text-md text-(--secondary-text-color) mt-3 tracking-wide wrap-break-word">
+                            As a Frontend Developer focus on AI-integration, Performance Optimization,  State managemennt and cross-browser compatibility.
+                        </p>
                     </div>
                 </div>
 

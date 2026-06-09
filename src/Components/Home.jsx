@@ -14,7 +14,7 @@ const Home = ()=>{
                 </div>
                 <div className="wrap-break-word px-6 tracking-wider my-5 text-base lg:text-xl lg:w-3/5 text-center text-(--secondary-text-color)">
                     <p>
-                        Frontend Developer specializing in building and maintaining dynamic websites and web applications.
+                        Frontend Developer with a focus on building, maintaining, and optimizing dynamic web applications and responsive user interfaces using modern web technologies
                     </p>
                 </div>
 
